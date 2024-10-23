@@ -1,0 +1,137 @@
+body{
+	/*background-color: #A2D2DF;*/
+	background-color: rgba(196,225,246, 0.7);
+	color: #0F1035;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+}
+h1{
+	color: #365486;
+	font-family: 'Noto+Serif', serif;
+	font-size: 45px;
+	line-height: 38px;
+	text-decoration: none;
+}
+h2{
+	/*color: #6A9AB0;*/
+	color: #3A6D8C;
+	font-family: 'Roboto+Condens', sans-serif;
+	font-size: 28px;
+	line-height: 3px;
+	letter-spacing: -1px;
+}
+
+img{
+	width: 250px;
+	height: 250px;
+}
+
+/* Classes und Ids*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.card{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid #001F3F;
+	transition: color 0.5s ease;
+}
+.card:hover{
+	/*background-color: #DCF2F1;*/
+	background-color: rgba(162,210,223, 0.3);
+}
+
+.btn_blue{
+	color: #384B70;
+	padding: 10px 20px;
+	margin: 40px 0 60px 0;
+	border: 1px solid #384B70;
+	text-decoration: underline;
+	border-radius: 8px;
+	background-color: rgba(80,118,135, 0.3);
+	transition: color 0.3s ease, background-color 0.3s ease;
+}
+.btn_blue:hover {
+	color: white;
+	background-color: #384B70;
+	border: none;
+}
+
+.img_circle{
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+/* Hier wird die Größe des Icons auf 40px gesetzt */
+.list_inline{
+	display: flex;
+	justify-content: center;
+}
+.list_inline li{
+	margin: 0 20px;
+}
+
+.iconlist_inline{
+	list-style: none;
+}
+.iconlist_inline li{
+	display: inline-block;
+	padding: 0 20px;
+}
+.icon_design{
+	/*color: #384B70;*/
+	color: #6C48C5;
+	font-size: 80px;
+	transition: font-size 0.5s ease, color 0.5s ease;
+}
+.icon_design:hover{
+	/*color: #365486;*/
+	color: #2E073F;
+	font-size: 100px;
+}
+
+
+@media (max-width: 390px){
+	.container{
+		width: 360px;
+	}
+	
+	.list_inline{
+		display: block;
+		text-align: left;
+		margin: 10px auto;
+	}
+	.list_inline li{
+		margin: 10px 0;
+	}
+
+
+	.iconlist_inline{
+		list-style: none;
+	}
+	.iconlist_inline li{
+		display: inline-block;
+		padding: 0 8px;
+	}
+	.icon_design{
+		/*color: #384B70;*/
+		color: #6C48C5;
+		font-size: 60px;
+		transition: color 0.5s ease;
+	}
+	.icon_design:hover{
+		/*color: #365486;*/
+		color: #2E073F;
+		font-size: 60px;
+	}
+}
+
+
